@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Terminal OS - sample website</title>
+        <meta charset="utf-8" />
+        <script type="text/javascript" src="terminal-OS.js"></script>
+        <style type="text/css">
+            body        { background-color: white; text-align: center; }
+            img         { border: 0px; }
+            div.page-content { width: 100%; float: left; }
+            .left       { float: left; }
+            .right      { float: right; }
+            .hand       { cursor: pointer; }
+	    div.center-content  
+	    { 
+		    border: 1px solid #130633; width: 90%; float: left; left: 5%; position: relative; text-align: left; 
+		    -moz-border-radius: 5px;
+		    border-radius: 5px;
+		    -moz-box-shadow: 5px 5px 5px black;
+		    -webkit-box-shadow: 5px 5px 5px black;
+		    box-shadow: 5px 5px 5px black;
+	    }
+	    .inner-content      { padding: 5px; font-size: 0.8em; }
+        </style>
+    </head>
+    <body onload="TerminalOS_Start();"> 
+        <div class="page-content">
+            <div class="content">
+            </div>
+
+            <div class="center-content">
+                <div class="logo right">
+                    <div id="logocanvas" style="width: 252px; height: 248px; z-index: 10; position:absolute;"></div> 
+                    <img id="logo" src="logo.png" alt="logo" />
+                </div>
+                <div class="inner-content" style="min-height: 200px;">
+                    <p>
+                        Website
+                    </p>
+                    <img src="HTML5_Logo_32.png" alt="html5" />
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
